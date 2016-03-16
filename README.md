@@ -1,6 +1,6 @@
 # tweetoria
 
-In circumstances when other profiling tools may be unavailable, this project explores using recent developments in language analysis applied to social media sources. It is constructed primarily with the goal of performing market research and customer profiling on a specific topic, person or brand, as represented by querying a term or terms via the [Twitter Streaming API](https://dev.twitter.com/streaming/overview).
+In circumstances when other profiling tools may be unavailable, this project explores using recent developments in applying language analysis to social media sources in an attempt to determine basic user characteristics. It is constructed primarily with the goal of performing market research and customer profiling on a specific topic, person or brand, as represented by querying a term or terms via the [Twitter Streaming API](https://dev.twitter.com/streaming/overview).
 
 This is an ELK-based ([elasticsearch](https://www.elastic.co/products/elasticsearch), [logstash](https://www.elastic.co/products/logstash) & [kibana](https://www.elastic.co/products/kibana)) tool configured to ingest, filter, & format streaming data from Twitter or similar feeds, index and store, tokenize content, execute lexical analysis, and visually represent results on a rolling basis.
 
@@ -11,7 +11,7 @@ Care must be taken to consider obvious bias inherent in this source data. Most o
 - uses Twitter,
 - is discussing the search term, and 
 - active during the period of the sample. 
-Search terms themselves may contain inherent bias, and resulting analysis should be carefully considered with this in mind.
+Search terms themselves may also be subject to inherent bias, and any resultant analysis should be carefully considered with this in mind.
 
 ### Roadmap
 - [Tokenize](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenizers.html) Explore if the required tokenization for chosen lexica may be effectively implemented within the ELK workflow.
