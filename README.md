@@ -46,3 +46,6 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 - [Faces++](https://github.com/FacePlusPlus/facepp-python-sdk/tree/v2.0) Cloud-based Facial recognition API (free)
 - [EmoVu](http://emovu.com/e/developers/api/) Deep Learning-based emotion recognition (50 free/month, then $195/mo)
 - [Natural Language Processing with Python](http://www.nltk.org/book/)
+
+### Acknowledgements 
+This project was in large part inspired by and makes use of the research in progress by the [World Well-Being Project](http://www.wwbp.org/about.html), based in the University of Pennsylvania's Positive Psychology Center in Philadelphia, PA. Their committment to open science and sharing the tools and data they produce is rare, and a model more institutions might emulate.
