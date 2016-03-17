@@ -26,6 +26,7 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 - [Characterizing geographic variation in well-being using tweets.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Na16PsUAAAAJ&citation_for_view=Na16PsUAAAAJ:d1gkVwhDpl0C)
 - [Analyzing Personality through Social Media Profile Picture Choice](http://wwbp.org/papers/persimages16icwsm.pdf)
 - [Studying user income through language, behaviour and affect in social media](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138717)
+ - [Data](https://figshare.com/articles/Twitter_User_Income_Dataset/1515997)
 - [Analyzing crowdsourced assessment of user traits through Twitter posts](https://sites.sas.upenn.edu/danielpr/publications/analyzing-crowdsourced-assessment-user-traits-through-twitter-posts)
 - [An analysis of the user occupational class through Twitter content](http://wwbp.org/papers/jobs15acl.pdf)
 
