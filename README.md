@@ -1,17 +1,17 @@
 # tweetoria
 
-In circumstances when other profiling tools may be unavailable, this project explores using recent developments in applying language analysis to social media sources in an attempt to determine basic user characteristics. It is constructed primarily with the goal of performing market research and customer profiling on a specific topic, person or brand, as represented by querying a term or terms via the [Twitter Streaming API](https://dev.twitter.com/streaming/overview).
+In circumstances when other profiling tools may be unavailable, this project explores using recent developments in applying language analysis to social media sources in an attempt to determine basic user characteristics. It is constructed primarily with the goal of performing market research and customer profiling on a specific topic, person or brand, as represented by querying a term or terms via the Twitter [Streaming](https://dev.twitter.com/streaming/overview) and [REST](https://dev.twitter.com/rest/overview) APIs.
 
 This is an ELK-based ([elasticsearch](https://www.elastic.co/products/elasticsearch), [logstash](https://www.elastic.co/products/logstash) & [kibana](https://www.elastic.co/products/kibana)) tool configured to ingest, filter, & format streaming data from Twitter or similar feeds, index and store, tokenize content, execute lexical analysis, and visually represent results on a rolling basis.
 
-Possible subsets of users:
+**Possible subsets of users:**
 - follow a given account
 - *interact* (@ mention, reply) with a given account
 - talk *about* (but not with) a given account
 
 
 ### Caveats
-Care must be taken to consider obvious bias inherent in this source data. Most obvious is that results represent *only* the portion of the general population that
+Care must be taken to consider bias inherent to the source data. Most obvious is that results represent *only* the portion of the general population that
 - has access to the internet,
 - uses Twitter,
 - is discussing the search term, and 
@@ -25,6 +25,9 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 - [Lexical Analysis]() TBD
 - [Alerts](https://www.elastic.co/products/watcher) Sudden changes in results may trigger notifications.
 - _Geocoding_ [Photon](https://github.com/komoot/photon) Either in the same ES instance or allocated geocoder instance, implement Photon & attempt to generate point data based on `user.location` field. *Note: this is the location the user lists in their Twitter profile, not the coordinates of the tweet itself.*
+
+### Other applications
+- Depending on the lexicon applied and related validation factors, a similar assessment could be applied to text compiled from other publicly-available sources, such as comments in issues and pull requests associated with open source software development, user forums or discussion modules, and messaging applications such as Slack or Hipchat.
 
 ### Working References, Sources & Influences
 - [Discovering User Attribute Stylistic Differences via Paraphrasing](http://wwbp.org/papers/discovering_user_attribute.pdf), 2016
@@ -42,3 +45,4 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 - [langid.py tool](https://github.com/saffsd/langid.py) (Lui and Baldwin 2012) Standalone language identification system
 - [Faces++](https://github.com/FacePlusPlus/facepp-python-sdk/tree/v2.0) Cloud-based Facial recognition API (free)
 - [EmoVu](http://emovu.com/e/developers/api/) Deep Learning-based emotion recognition (50 free/month, then $195/mo)
+- [Natural Language Processing with Python](http://www.nltk.org/book/)
