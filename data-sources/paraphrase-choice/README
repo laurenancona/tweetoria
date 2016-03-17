@@ -1,0 +1,23 @@
+Paraphrase choice based on user traits
+
+PPDB paraphrase pairs and clusters with their associated usage score across three user traits:
+a. Gender: male or female
+b. Age: <25 or >30
+c. Occupational Class: low or high
+
+Contents:
+frequencies.tar.gz - contains the raw frequency statistics for all phrases and each trait
+pairs.tar.gz - contains files with pairwise usage scores for each trait
+clusters.tar.gz - contains files with cluster usage scores for each trait
+
+In pairs and clusters, the negative values are phrases which are more associated with: females, lower occupational class and users over 30 years old.
+
+If you are using this dataset, please reference our work:
+
+@inproceedings{paraphrase16aaai,
+	author  = {Preo\c{t}iuc-Pietro, Daniel and Xu, Wei and Ungar, Lyle},
+	title   = {{Discovering user attribute stylistic differences via paraphrasing}},
+	booktitle = {{Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence}},
+	series  = {AAAI},
+	year    = {2016}
+}
