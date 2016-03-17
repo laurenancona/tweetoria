@@ -15,11 +15,12 @@ Care must be taken to consider obvious bias inherent in this source data. Most o
 - has access to the internet,
 - uses Twitter,
 - is discussing the search term, and 
-- active during the period of the sample. 
+- is active during the period of the sample. 
+
 Search terms themselves may also be subject to inherent bias, and any resultant analysis should be carefully considered with this in mind.
 
 ### Roadmap
-- [Tokenize](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenizers.html) Explore if the required tokenization for chosen lexica may be effectively implemented within the ELK workflow.
+- [Tokenize](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenizers.html) Determine if the required tokenization for chosen lexica may be effectively implemented within the ELK workflow.
 - [Filters](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenfilters.html)
 - [Lexical Analysis]() TBD
 - [Alerts](https://www.elastic.co/products/watcher) Sudden changes in results may trigger notifications.
@@ -28,7 +29,7 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 ### Working References, Sources & Influences
 - [Discovering User Attribute Stylistic Differences via Paraphrasing](http://wwbp.org/papers/discovering_user_attribute.pdf), 2016
  - [Data](https://figshare.com/articles/Paraphrase_choice_based_on_user_traits/1613525)
-- [Developing age and gender predictive lexica over social media](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gFN4QUYAAAAJ&citation_for_view=gFN4QUYAAAAJ:9yKSN-GCB0IC), 
+- [Developing age and gender predictive lexica over social media](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gFN4QUYAAAAJ&citation_for_view=gFN4QUYAAAAJ:9yKSN-GCB0IC), 2014 
 - [Characterizing geographic variation in well-being using tweets.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Na16PsUAAAAJ&citation_for_view=Na16PsUAAAAJ:d1gkVwhDpl0C)
 - [Analyzing Personality through Social Media Profile Picture Choice](http://wwbp.org/papers/persimages16icwsm.pdf), 2016
 - [Studying user income through language, behaviour and affect in social media](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138717), 2015
