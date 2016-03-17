@@ -22,16 +22,18 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 - [Tokenize](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenizers.html) Explore if the required tokenization for chosen lexica may be effectively implemented within the ELK workflow.
 - [Filters](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenfilters.html)
 - [Lexical Analysis]() TBD
-- [Implement Alerts](https://www.elastic.co/products/watcher) Sudden changes in results may trigger notifications.
+- [Alerts](https://www.elastic.co/products/watcher) Sudden changes in results may trigger notifications.
 - _Geocoding_ [Photon](https://github.com/komoot/photon) Either in the same ES instance or allocated geocoder instance, implement Photon & attempt to generate point data based on `user.location` field. *Note: this is the location the user lists in their Twitter profile, not the coordinates of the tweet itself.*
 
 
 ### Working References, Sources & Influences
-- [Developing age and gender predictive lexica over social media](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gFN4QUYAAAAJ&citation_for_view=gFN4QUYAAAAJ:9yKSN-GCB0IC)
+- [Discovering User Attribute Stylistic Differences via Paraphrasing](http://wwbp.org/papers/discovering_user_attribute.pdf), 2016
+ - [Data](https://figshare.com/articles/Paraphrase_choice_based_on_user_traits/1613525)
+- [Developing age and gender predictive lexica over social media](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gFN4QUYAAAAJ&citation_for_view=gFN4QUYAAAAJ:9yKSN-GCB0IC), 
 - [Characterizing geographic variation in well-being using tweets.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Na16PsUAAAAJ&citation_for_view=Na16PsUAAAAJ:d1gkVwhDpl0C)
-- [Analyzing Personality through Social Media Profile Picture Choice](http://wwbp.org/papers/persimages16icwsm.pdf)
-- [Studying user income through language, behaviour and affect in social media](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138717)
+- [Analyzing Personality through Social Media Profile Picture Choice](http://wwbp.org/papers/persimages16icwsm.pdf), 2016
+- [Studying user income through language, behaviour and affect in social media](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138717), 2015
  - [Data](https://figshare.com/articles/Twitter_User_Income_Dataset/1515997)
 - [Analyzing crowdsourced assessment of user traits through Twitter posts](https://sites.sas.upenn.edu/danielpr/publications/analyzing-crowdsourced-assessment-user-traits-through-twitter-posts)
-- [An analysis of the user occupational class through Twitter content](http://wwbp.org/papers/jobs15acl.pdf)
+- [An analysis of the user occupational class through Twitter content](http://wwbp.org/papers/jobs15acl.pdf), 2015
 
