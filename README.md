@@ -4,6 +4,11 @@ In circumstances when other profiling tools may be unavailable, this project exp
 
 This is an ELK-based ([elasticsearch](https://www.elastic.co/products/elasticsearch), [logstash](https://www.elastic.co/products/logstash) & [kibana](https://www.elastic.co/products/kibana)) tool configured to ingest, filter, & format streaming data from Twitter or similar feeds, index and store, tokenize content, execute lexical analysis, and visually represent results on a rolling basis.
 
+Possible subsets of users:
+- follow a given account
+- *interact* (@ mention, reply) with a given account
+- talk *about* (but not with) a given account
+
 
 ### Caveats
 Care must be taken to consider obvious bias inherent in this source data. Most obvious is that results represent *only* the portion of the general population that
