@@ -25,7 +25,6 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 - [Alerts](https://www.elastic.co/products/watcher) Sudden changes in results may trigger notifications.
 - _Geocoding_ [Photon](https://github.com/komoot/photon) Either in the same ES instance or allocated geocoder instance, implement Photon & attempt to generate point data based on `user.location` field. *Note: this is the location the user lists in their Twitter profile, not the coordinates of the tweet itself.*
 
-
 ### Working References, Sources & Influences
 - [Discovering User Attribute Stylistic Differences via Paraphrasing](http://wwbp.org/papers/discovering_user_attribute.pdf), 2016
  - [Data](https://figshare.com/articles/Paraphrase_choice_based_on_user_traits/1613525)
@@ -37,3 +36,8 @@ Search terms themselves may also be subject to inherent bias, and any resultant 
 - [Analyzing crowdsourced assessment of user traits through Twitter posts](https://sites.sas.upenn.edu/danielpr/publications/analyzing-crowdsourced-assessment-user-traits-through-twitter-posts)
 - [An analysis of the user occupational class through Twitter content](http://wwbp.org/papers/jobs15acl.pdf), 2015
 
+
+### Resources & Libraries
+- [langid.py tool](https://github.com/saffsd/langid.py) (Lui and Baldwin 2012) Standalone language identification system
+- [Faces++](https://github.com/FacePlusPlus/facepp-python-sdk/tree/v2.0) Cloud-based Facial recognition API (free)
+- [EmoVu](http://emovu.com/e/developers/api/) Deep Learning-based emotion recognition (50 free/month, then $195/mo)
